@@ -24,7 +24,7 @@ $(function() {
 
     // standard replacements
     replacements.forEach(o => {
-      text = text.replace(o.marker, o.wrapper);
+      text = text.replace(new RegExp(o.marker, 'g'), o.wrapper);
     });
 
     // inline comments (the regexp is an escaped //.* with a global flag)
