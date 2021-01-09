@@ -7,9 +7,12 @@ $(function() {
     };
   }
 
+  // NB: the trailing places are there to make it slightly more resilient to nesting without having to parse anything
   const replacements = [
     { marker: 'function', wrapper: getWrapper('keyword-function') },
     { marker: 'return', wrapper: getWrapper('keyword-return') },
+    { marker: 'if ', wrapper: getWrapper('keyword-if') },
+    { marker: 'else ', wrapper: getWrapper('keyword-else') },
     { marker: 'var ', wrapper: getWrapper('keyword-var') },
     { marker: 'let ', wrapper: getWrapper('keyword-var') },
     { marker: 'const ', wrapper: getWrapper('keyword-var') }

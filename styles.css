@@ -19,6 +19,8 @@ code .function-name {
   color: #f5d73f;
 }
 
+code .keyword-if,
+code .keyword-else,
 code .keyword-return {
   color: #c586c0;
 }
