@@ -1,0 +1,37 @@
+body {
+  background-color: white;
+}
+
+code {
+  font-family: monospace;
+  background-color: lightgray;
+}
+
+code.block {
+  color: #d4d4d4;
+  background-color: #1d1d1d;
+  display: block;
+  margin: 1em;
+  white-space: pre;
+}
+
+code .function-name {
+  color: #f5d73f;
+}
+
+code .keyword-return {
+  color: #c586c0;
+}
+
+code .keyword-function,
+code .keyword-var {
+  color: #33b4ff;
+}
+
+code .comment {
+  color: #6a9955;
+}
+
+code .string {
+  color: #ce9178;
+}
